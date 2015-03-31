@@ -11,3 +11,4 @@ files:
 
 * PCB - printed board 
 * top, bottom - 3D model of the frame
+* scheme - the schematics
