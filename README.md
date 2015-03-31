@@ -9,5 +9,5 @@ Electronics is highly based on Arduino, but was simplified to exclude unneeded p
 files:
 ------
 
-* PCB.* - printed board 
-* top.*, bottom.* - 3D model of the frame
+* PCB - printed board 
+* top, bottom - 3D model of the frame
