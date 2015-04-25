@@ -12,4 +12,4 @@ files:
 * PCB - printed board 
 * top, bottom - 3D model of the frame
 * scheme - the schematics
-* software/... - software to get data from device (in processing 1.2.1)
+* soft/... - software to get data from device (in processing 1.2.1)
