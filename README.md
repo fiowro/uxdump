@@ -21,4 +21,6 @@ A software module to get  GSR, pulse and pressure data from device (in processin
 frontend
 ------
 
-A software shell created with QT Creator
+A software shell created with QT Creator:
+
+[screenshot]: screenshot.jpg
