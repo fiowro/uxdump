@@ -1,15 +1,25 @@
 # uxdump
 
-It is an open hardware project to create device measuring changes in the state of a person while working with software. 
-Device is intended to be used in usability researches.
-It measures galvanic skin responce and also carries out two measurements of the heartbeat rate (to estimate pressure change).
-Data are transferred to computer via USB cable. 
-Electronics is highly based on Arduino, but was simplified to exclude unneeded parts.
+It was started as an open hardware project to create a device which measures changes in the state of a person while he/she works with software. Gradualy it permutates into a software shell with an additional hardware component,  intended for usability researches.
 
-files:
+Hardware part measures galvanic skin responce and also carries out two measurements of the heartbeat rate (to estimate arterial pressure change). Electronics is highly based on Arduino, but was simplified to exclude unneeded parts. Measured values are transferred to computer via USB cable and received by driver written in Processing language. These data are to be further imported into the shell via CSV file in automatic or manual mode, so wide range of different hardware units can be successfully used in addition (particularly we have added NeuroSky Mindwave EEG for our own research project, paired with Puzzlebox Synapse software).
+
+
+
+hardware:
 ------
 
 * PCB - printed board 
 * top, bottom - 3D model of the frame
 * scheme - the schematics
 * soft/... - software to get data from device (in processing 1.2.1)
+
+driver:
+------
+
+An intermediate software module to acquire measurements of pulse, GSR and arterial pressure.
+
+frontend
+------
+
+A software shell created with QT Creator
