@@ -23,4 +23,4 @@ frontend
 
 A software shell created with QT Creator:
 
-![screenshot][screenshot.jpg]
+![screenshot](http://github.com/fiowro/uxdump/screenshot.jpg)
