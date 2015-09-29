@@ -12,12 +12,11 @@ hardware:
 * PCB - printed board 
 * top, bottom - 3D model of the frame
 * scheme - the schematics
-* soft/... - software to get data from device (in processing 1.2.1)
 
 driver:
 ------
 
-An intermediate software module to acquire measurements of pulse, GSR and arterial pressure.
+A software module to get  GSR, pulse and pressure data from device (in processing 1.2.1)
 
 frontend
 ------
